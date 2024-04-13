@@ -18,16 +18,7 @@ const firebaseConfig = {
 };
 
 
-/*
-const firebaseConfig = {
-  apiKey: "AIzaSyCibX91X2rmndmKToYYjIMdNyeoTrnSLoE",
-  authDomain: "offtimemaster.firebaseapp.com",
-  projectId: "offtimemaster",
-  storageBucket: "offtimemaster.appspot.com",
-  messagingSenderId: "70962091523",
-  appId: "1:70962091523:web:3e99c99fd72d43242c2036"
-};
-*/
+
 
 
 
