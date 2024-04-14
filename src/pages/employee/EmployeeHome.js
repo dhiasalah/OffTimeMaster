@@ -189,7 +189,7 @@ export const EmployeeHome = () => {
 
 
   return (
-      <div className='flex justify-start flex-wrap sm:justify-evenly p-6 '>
+      <div className='flex justify-center flex-wrap sm:justify-evenly p-6 '>
 
         <Success/>
         <InformationsEmployee user={user}/>
@@ -197,7 +197,7 @@ export const EmployeeHome = () => {
 
 
 
-        <div className="max-w-xl p-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2 flex flex-wrap justify-start">
+        <div className="max-w-xl p-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2 flex flex-wrap justify-center">
 
           <div className="w-60 m-2   p-2 bg-white border border-gray-200 rounded-full shadow dark:bg-gray-800 dark:border-gray-700 flex items-center justify-evenly">
             <div className='text-green-500'>
@@ -264,7 +264,7 @@ export const EmployeeHome = () => {
                 {
                   !user.canRequest &&
                  ( <div className="text-center m-2 w-fit m-auto my-4 ">
-                    <p class="text-red-600 text-lg">Vous ne pouvez par demander pour le moment ,votre demande est en cours de consultation</p>
+                    <p className="text-red-600 text-lg">Vous ne pouvez par demander pour le moment ,votre demande est en cours de consultation</p>
                   </div>)
 
                 }
