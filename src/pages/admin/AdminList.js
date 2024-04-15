@@ -29,7 +29,7 @@ export const AdminList = () => {
         getPosts();
        
       },[adminQuery,toggle])
-
+      
 
 
 
