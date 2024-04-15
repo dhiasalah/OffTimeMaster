@@ -8,10 +8,10 @@ export const Success = () => {
     const dispatch=useDispatch();
 
   return (
-    <div id="medium-modal" tabIndex="-1" className={`fixed inset-0 z-50 flex justify-center items-center ${show ? "" : "hidden"} bg-gray-800 bg-opacity-50`}>
+    <div id="medium-modal" tabIndex="-1" className={`fixed inset-0 z-50 flex justify-center rounded-lg items-center ${show ? "" : "hidden"} bg-gray-800 bg-opacity-50`}>
         <div className="w-full max-w-lg bg-white rounded-lg shadow flex flex-col justify-center items-center">
             
-            <div className='text-green-800 bg-green-400 w-full h-2/4 flex justify-center p-4'>
+            <div className='text-green-800 rounded-lg bg-green-400 w-full h-2/4 flex justify-center p-4'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" className="bi bi-check-circle-fill" viewBox="0 0 16 16">
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
                 </svg>
