@@ -4,16 +4,15 @@ import { Testimonials } from "./components/Testimonials";
 import { Test } from "./components/Test";
 import { useTitle } from "../../hooks/useTitle";
 export const HomePage = () => {
-  useTitle("Home")
+  useTitle("Home");
   return (
     <>
-    <Test/>
+      <Test />
       <main>
-            <Hero/>
-            <Testimonials/>
-            <Faq/>
-        </main>
+        <Hero />
+        <Testimonials />
+        <Faq />
+      </main>
     </>
-      
-    )
-}
+  );
+};

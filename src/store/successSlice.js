@@ -1,19 +1,16 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
-const successSlice=createSlice({
-    name:"success",
-    initialState:{
-        show:false
-        
+const successSlice = createSlice({
+  name: "success",
+  initialState: {
+    show: false,
+  },
+  reducers: {
+    togglerShow(state, action) {
+      return { ...state, show: action.payload };
     },
-    reducers:{
-
-        togglerShow(state,action){
-            return {...state,show:action.payload};
-        }
-
-    }
+  },
 });
 
-export const {togglerShow}=successSlice.actions;
-export const successReducer=successSlice.reducer;
+export const { togglerShow } = successSlice.actions;
+export const successReducer = successSlice.reducer;
