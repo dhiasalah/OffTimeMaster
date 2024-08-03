@@ -7,15 +7,18 @@ export const Test = () => {
 
   return (
     <section className="relative h-screen flex flex-col items-center justify-center text-center text-white mb-6 ">
-      <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
+      <div className="video-docker absolute top-0 left-0 -z-1 w-full h-full overflow-hidden">
         <video
           className="min-w-full min-h-full absolute object-cover"
-          src={video}
-          type="video/mp4"
+          // src={video}
+          // type="video/mp4"
           autoPlay
           muted
           loop
-        ></video>
+          playsInline
+        >
+          <source src={video} type="video/mp4" />
+        </video>
       </div>
       <div className="video-content space-y-2 z-10 flex flex-col items-center gap-2">
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight  md:text-5xl lg:text-6xl text-white">

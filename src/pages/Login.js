@@ -80,6 +80,7 @@ export const Login = () => {
           className="min-w-full min-h-full absolute object-cover"
           src={video}
           type="video/mp4"
+          playsInline
           autoPlay
           muted
           loop
