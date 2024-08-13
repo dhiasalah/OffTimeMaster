@@ -2,16 +2,16 @@ import React from "react";
 
 export const AboutCard = ({ image, nom, lien, para }) => {
   return (
-    <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-12 my-4">
+    <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 max-sm:p-5 sm:p-12 my-4">
       <div
         id="defaultTabContent"
-        className=" flex flex-row items-center justify-center"
+        className=" flex max-sm:flex-col max-sm:gap-5 max-sm:justify-start items-center sm:justify-center"
       >
         <div className="w-40">
           <img src={image} alt="" />
         </div>
         <div
-          className=" w-3/4 p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800"
+          className=" w-3/4 max-sm:w-full max-sm:p-2 sm:p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800"
           id="about"
           role="tabpanel"
           aria-labelledby="about-tab"

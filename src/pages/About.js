@@ -21,7 +21,7 @@ export const About = () => {
   return (
     <main>
       <div>
-        <h1 className="  dark:text-white text-4xl font-bold text-gray-700 text m-12 text-center">
+        <h1 className="dark:text-white text-4xl font-bold text-gray-700 text m-12 text-center">
           Qui utilise notre Application ?
         </h1>
       </div>
